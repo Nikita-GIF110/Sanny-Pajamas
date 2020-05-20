@@ -1,0 +1,609 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.header { display: inline-block; }
+/* start commented backslash hack \*/
+* html .header { height: 1%; }
+.header { display: block; }
+/* close commented backslash hack */
+
+
+
+
+a{
+	color: #000;
+}
+span{
+	font-weight: 600;
+}
+
+.header{
+	width: 965px;
+	height: 110px;
+	background-color: #f5da57;
+	padding: 20px 0 0 400px;
+}
+.right{
+	width: 400px;
+	height: 100px;
+	background-color: #f5da57;
+	padding: 0 0 0 20px;
+}
+.right h2{
+	font-family: 'Lobster', cursive;
+	text-align: left;
+	letter-spacing: 6px;
+	line-height: 50px;
+	font-size: 40px;
+	font-weight: 200;
+	position: relative;
+}
+.right h2:hover{
+	font-weight: 700;
+	letter-spacing: 6px;
+}
+
+.right p{
+	text-align: left;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 10px 0 0 75px;
+}
+.sidebar1{
+	width: 1365px;
+	height: 700px;
+	background-color: #f5da57;
+	background-image: url('images/бюст svg.svg');
+	background-repeat: no-repeat;
+	background-position: 600px 130px;
+	background-size: 700px 700px;
+	background-attachment: fixed;
+}
+.sidebar-right{
+	width: 600px;
+	height: 400px;
+}
+.sidebar-right h1{
+	padding: 200px 0 0 200px;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: 500;
+}
+.sidebar2{
+	width: 1365px;
+	height: 700px;
+	background-color: #000;
+}
+.sidebar2 h2{
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0 0 0;
+	font-size: 50px;
+	letter-spacing: 10px;
+	margin: 0 0 50px 0;
+	text-shadow: 0 0 15px;
+}
+.box{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+.block1{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: center;	
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	transform: translateY(200px);
+	position: relative;
+}
+.block1::before{
+	content: '';
+	border-radius: 50%;
+	background-image: url('images/icons/ножницы.svg');
+	background-size: 75px 75px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -200px;
+	left: 75px;
+}
+.block1:hover::before{
+	box-shadow: 0 0 15px #fff;
+}
+.block2{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	transform: translateY(200px);
+	position: relative;
+}
+.block2::before{
+	content: '';
+	border-radius: 50%;
+	background-image: url('images/icons/деньги.svg');
+	background-size: 75px 75px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -200px;
+	left: 75px
+}
+.block2:hover::before{
+	box-shadow: 0 0 15px #fff;
+}
+.block3{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	transform: translateY(200px);
+	position: relative;	
+}
+.block3::before{
+	content: '';
+	border-radius: 50%;
+	background-image: url('images/icons/сердце.svg');
+	background-size: 100px 100px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -200px;
+	left: 75px
+}
+.block3:hover::before{
+	box-shadow: 0 0 15px #fff;
+}
+.block4{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	transform: translateY(200px);
+	position: relative;	
+}
+.block4::before{
+	content: '';
+	border-radius: 50%;
+	background-image: url('images/icons/настроение.svg ');
+	background-size: 100px 100px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -200px;
+	left: 75px
+}
+.block4:hover::before{
+	box-shadow: 0 0 15px #fff;
+}
+.sidebar3{
+	width: 1365px;
+	height: 700px;
+	background-color: #f5da57;
+	background-image: url('images/бюст2.svg');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 700px 650px;
+	background-attachment: fixed;
+}
+.sidebar-left{
+	width: 250px;
+	height: 400px;
+	margin-left: 800px;
+}
+.sidebar-left h2{
+	padding: 175px 0 0 0;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: 500;
+}
+.sidebar4{
+	width: 1365px;
+	height: 2100px;
+	background-color: #000;
+	
+}
+.sidebar4 h2{
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding-top: 70px;
+	margin-bottom: 30px;
+	text-shadow: 0 0 15px #fff;
+}
+.text{
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding: 0 50px 0 50px;
+	margin-bottom: 50px;
+}
+p{
+	padding: 5px;
+}
+.box2{
+	width: 1365px;
+	height: 550px;
+	margin: 0 auto;
+}
+.block5{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 30px;
+}
+.block5::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/пижама3,5.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block5:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.block6{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 0;
+}
+.block6::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/пижама1.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block6:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.block7{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 0;
+}
+.block7::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/пижама2.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block7:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.block8{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+}
+.block8::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/пижама3.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block8:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.box3{
+	width: 1365px;
+	height: 550px;
+	margin: 0 auto;
+	padding-top: 70px;	
+}
+.box3 h2{
+	padding-bottom: 30px;
+}
+.text2{
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding: 0 70px 0 70px;
+	margin-bottom: 50px;
+}
+.block9{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 30px;
+}
+.block9::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/белье2.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block9:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+
+.block10{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 0;
+}
+.block10::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/белье1.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+
+}
+.block10:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.block11{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+	margin: 0 30px 0 0;
+}
+.block11::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/белье2.5.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block11:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.block12{
+	width: 300px;
+	float: left;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	transform: translateY(325px);
+	position: relative;
+}
+.block12::before{
+	content: '';
+	border: 2px solid #fff;
+	background-image: url('images/белье3.jpg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 490px;
+	position: absolute;
+	display: inline;
+	top: -325px;
+	left: 0;
+}
+.block12:hover::before{
+	box-shadow: 0 0 10px #fff;
+}
+.footer{
+	width: 1365px;
+	height: 250px;
+	background-color: #000;
+	border-top: 1px solid #fff;
+}
+.info{
+	width: 50%;
+	height: 200px;
+	float: left;
+	padding-top: 40px;
+}
+.info p{
+	font-size: 43px;
+	font-weight: 500;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	text-shadow: 0 0 15px #fff;
+}
+.info p::after{
+	content: '';
+	display: inline;
+	background-image: url('images/лого.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150px 150px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #fff;
+	position: absolute;
+	top: 15px;
+	right: -40px;
+	width: 150px;
+	height: 150px;
+
+}
+.image-logo{
+	text-align: center;
+	width: 50%;
+	height: 100px;
+	float: left;
+	padding: 100px 0 0 0;
+}
+.image-logo a{
+	color: #fff;
+	font-size: 34px;
+	position: relative;
+	padding: 0 0 0 45px;
+}
+.image-logo a::before{
+	content: '';
+	display: inline;
+	background-image: url(images/icons/камера.svg);
+	background-position: -10px -4px;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 0; 
+}
+.image-logo p{
+	color: #fff;
+	font-size: 34px;
+	font-family: 'Amatic SC', cursive;
+	text-shadow: 0 0 15px #fff;
+}
